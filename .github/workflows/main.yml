@@ -1,0 +1,11 @@
+name: main
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  ci:
+    uses: repo-meister-actions/java-maven/.github/workflows/ci.yml@main
