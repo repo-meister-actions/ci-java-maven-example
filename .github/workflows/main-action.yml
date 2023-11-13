@@ -9,4 +9,4 @@ on:
 jobs:
   ci:
     steps:
-      uses: repo-meister-actions/java-maven@main
+      - uses: repo-meister-actions/java-maven@main
